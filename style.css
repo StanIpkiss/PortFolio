@@ -1,4 +1,9 @@
-
+a
+{
+    color: #fff5b0;
+    text-decoration: none;
+    z-index: 2;
+}
 body {
   padding: 0;
   margin: 0;
@@ -7,8 +12,19 @@ body {
   height: 100vh;
   width: 100vw;
 }
+div
+{
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    color:red;
+}
 
 span {
+    display: flex;
+    content: "Bienvenue chez Ben !";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -36,7 +52,7 @@ span::before {
   -webkit-background-clip: text;
   top: 0px;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   transition: 1s;
 }
 
