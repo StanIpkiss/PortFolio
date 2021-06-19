@@ -92,6 +92,36 @@ body {
     font-size: 30px;
   }
 }
+@media screen and (max-width:350px)
+{
+  .bienvenue
+  {
+    font-size: 35px;
+  }
+  .cliqueIci
+  {
+    font-size: 25px;
+  }
+  .cliqueIci:hover
+  {
+    font-size:27px;
+  }
+}
+@media screen and (max-width:315px)
+{
+  .bienvenue
+  {
+    font-size: 30px;
+  }
+  .cliqueIci
+  {
+    font-size: 20px;
+  }
+  .cliqueIci:hover
+  {
+    font-size:24px;
+  }
+}
 @keyframes slideDown
 {
   from
