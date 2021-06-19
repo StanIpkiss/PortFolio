@@ -10,6 +10,7 @@ a
     font-family: 'Lobster', cursive;
     font-size: 90px;
     animation: slideDown 1.5s;
+    margin-bottom: 10px;
 }
 .parent
 {
@@ -19,14 +20,15 @@ a
     justify-content: center;
     height: 100vh;
 }
-span{
- margin-left: 240px; 
+.cliqueIci{
+ 
  font-size: 60px;
+ font-family: 'Lobster', cursive;
+ animation: slideDown 1.5s;
 }
-span:hover
+.cliqueIci:hover
 {
   font-size: 65px;
-  animation: smooth;
 }
 
 
@@ -54,16 +56,47 @@ body {
 }
 @media screen and (max-width:1350px)
 {
-  span
+  .cliqueIci
   {
-    width: 90%;
+
+  }
+}
+@media screen and (max-width:840px)
+{
+
+  .cliqueIci
+  {
+    font-size:50px
+  }
+  .bienvenue
+  {
+    font-size:70px;
+  }
+}
+@media screen and (max-width:660px)
+{
+  .bienvenue
+  {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:660px)
+{
+  .cliqueIci
+  {
+    font-size:28px;
+    
+  }
+  .cliqueIci:hover
+  {
+    font-size: 30px;
   }
 }
 @keyframes slideDown
 {
   from
   {
-    transform: translateY(350px);
+    transform: translateY(330px);
     opacity: 0.5;
   }
   to
@@ -72,20 +105,5 @@ body {
     opacity: 1;
   }
 }
-
-@keyframes smooth
-{
-  from
-  {
-   
-  }
-  to
-  {
-    
-  }
-
-
-}
-
 
 
