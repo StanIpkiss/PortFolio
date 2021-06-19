@@ -1,4 +1,19 @@
 body
 {
-    background-color: green;
+    background-color: #eff0ba;
+    height: 100vh;
+    margin: 0;
+}
+
+.cardHead
+{
+    background-color: red;
+    display: flex;
+    margin: 40px;
+    
+}
+.presentation
+{
+    margin: 0;
+    border-right:1px solid white;
 }
